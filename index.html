@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket News</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        nav ul li a {
+            color: #ff6600;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.2s;
+        }
+        nav ul li a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        h1, h2 {
+            color: #222;
+        }
+        .bloco {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f9e5d8;
+            border-radius: 8px;
+        }
+        .bloco h3 {
+            color: #ff6600;
+        }
+        .sites-lista li {
+            margin-bottom: 8px;
+        }
+        .noticias-lista li {
+            margin-bottom: 8px;
+        }
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+        @media (max-width: 600px) {
+            main { padding: 10px; }
+            nav ul { gap: 10px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Basket News</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="melhores-sites.html">Melhores Sites</a></li>
+                <li><a href="rankings.html">Rankings</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="bloco">
+            <h2>Bem-vindo ao portal dos fãs de basquete!</h2>
+            <p>
+                Aqui você encontra notícias, rankings, estatísticas e os melhores sites sobre basquete mundial. Navegue pelas seções acima e fique por dentro de tudo!
+            </p>
+        </section>
+        <section class="bloco">
+            <h3>Últimas Notícias</h3>
+            <ul class="noticias-lista">
+                <li><a href="nba.html">NBA</a> - Notícias e novidades da liga americana</li>
+                <li><a href="nbb.html">NBB</a> - Novo Basquete Brasil</li>
+                <li><a href="euroliga.html">Euroliga</a> - Basquete europeu</li>
+                <li><a href="feminino.html">Basquete Feminino</a> - Destaques e campeonatos</li>
+            </ul>
+            <a href="noticias.html">Veja todas as notícias &rarr;</a>
+        </section>
+        <section class="bloco">
+            <h3>Melhores Sites de Basquete</h3>
+            <ul class="sites-lista">
+                <li><a href="https://www.nba.com/news" target="_blank">NBA.com</a> - Notícias e estatísticas oficiais da NBA</li>
+                <li><a href="https://www.espn.com/nba/" target="_blank">ESPN NBA</a> - Cobertura completa da NBA</li>
+                <li><a href="https://jumperbrasil.lance.com.br/" target="_blank">Jumper Brasil</a> - Portal brasileiro de basquete</li>
+            </ul>
+            <a href="melhores-sites.html">Veja mais sites &rarr;</a>
+        </section>
+        <section class="bloco">
+            <h3>Rankings e Estatísticas</h3>
+            <ul>
+                <li><strong>Times em Alta:</strong> Denver Nuggets, Boston Celtics, Real Madrid, Flamengo</li>
+                <li><strong>Jogadores em Destaque:</strong> LeBron James, Stephen Curry, Lucas Dias, Emma Meesseman</li>
+                <li><strong>Estatísticas Gerais:</strong> Pontos, Assistências, Rebotes</li>
+            </ul>
+            <a href="rankings.html">Veja todos os rankings &rarr;</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Basket News. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
